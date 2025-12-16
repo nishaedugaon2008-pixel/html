@@ -1,0 +1,298 @@
+/* Responsive Images */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    .Eligibility h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .star-text {
+        display: block;
+        text-align: center;
+    }
+
+    .badge {
+        text-align: center;
+        display: block;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img-fluiddetails {
+    height: 60vh !important;
+    width: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #000, #000, #272727;
+}
+
+#courseCarousel .carousel-control-prev,
+#courseCarousel .carousel-control-next {
+    width: 40px;
+    /* Buttons ka size fix karen */
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+    z-index: 5;
+    padding: 0;
+    /* Extra padding hata den */
+}
+
+#courseCarousel .carousel-control-prev-icon,
+#courseCarousel .carousel-control-next-icon {
+    background-size: 20px 20px;
+}
+
+.card1 {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    border-color: orangered;
+}
+
+.card-body {
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.job_percentage {
+    background-color: #ff9900;
+    float: right;
+    margin-top: 2%;
+    width: 230px;
+    border-radius: 0px;
+    margin-right: -5%;
+}
+
+.card-body h1 {
+    font-weight: bold;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.dimand_skill {
+    font-size: 16px;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+.timo {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 15%;
+}
+
+.Eligibility {
+    flex: 1;
+    padding: 10px;
+}
+
+.star-text {
+    color: #ff9900;
+}
+
+h3 b {
+    color: #565a5f;
+}
+
+
+/* Section heading */
+
+.mission-title {
+    color: #ff9900;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.future-control-title {
+    padding-top: 3%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, orange, red);
+    background-clip: text;
+    color: transparent;
+}
+
+.fundamentals-title {
+    font-size: 24px;
+}
+
+.fundamentals-details {
+    font-size: 16px;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+}
+
+.topics-list {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.topic-lists {
+    padding-top: 10px;
+}
+
+/* techstack section */
+
+.tech-stack-title {
+    color: #ff9900;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
+.tech-stack-item {
+    height: 200px;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.tech-stack-item img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.tech-stack-item h6 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.tech-stack-item p {
+    margin-top: 2%;
+    font-size: 13px;
+    color: #716b6b;
+}
+
+/* Images Section  */
+
+.future-control-title {
+    padding-top: 3%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.text-muted {
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+/* trust section */
+.mission-title {
+    color: #ff9900;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.future-control-title {
+    padding-top: 3%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.feature {
+    padding-bottom: 20px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.feature p {
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .section-heading {
+    color: #ff9900;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.main-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #212121;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+
+h4.fw-bold {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+h5.fw-bold {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #444;
+} */
